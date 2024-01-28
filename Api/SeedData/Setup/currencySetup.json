@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "$",
+    "arabicName": "دولار",
+    "englishName": "Dollar",
+    "countryId": 1
+  },
+  {
+    "symbol": "LE",
+    "arabicName": "جنية",
+    "englishName": "Egyption Pound",
+    "countryId": 2
+  }
+]

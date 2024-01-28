@@ -1,0 +1,13 @@
+[
+  {
+    "ServiceName": "Service Name",
+    "ItemCode": "Ab1",
+    "EnglishName": "test",
+    "ArabicName": "تيست",
+    "ItemCategoryId":2,
+    "ItemTypeId":1,
+    "ItemClassificationId":3,
+    "CostPrice":20,
+    "CostPriceCurrencyId" : 1
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Key": "DONE",
+    "Value": "تم"
+  },
+  {
+    "Key": "SAVE_SUCCESS",
+    "Value": "تم الحفظ بنجاح"
+  },
+  {
+    "Key": "DELETE_SUCCESS",
+    "Value": "تم الحذف بنجاح"
+  },
+  {
+    "Key": "EDIT_SUCCESS",
+    "Value": "تم التعديل بنجاح"
+  },
+  {
+    "Key": "NOT_FOUND",
+    "Value": "لم يتم العثور على بيانات"
+  },
+  {
+    "Key": "EDIT_FAILD",
+    "Value": "لم يتم التعديل"
+  },
+  {
+    "Key": "SAVE_FAILD",
+    "Value": "لم يتم الحفظ"
+  },
+  {
+    "Key": "DELETE_FAILD",
+    "Value": "لم يتم الحذف"
+  },
+  {
+    "Key": "VALIDATION",
+    "Value": "يوجد خطأ في التحقق"
+  },
+  {
+    "Key": "EMPOLYEE_NOTFOUND",
+    "Value": "الموظف غير موجود"
+  },
+  {
+    "Key": "HRFILE_NOTFOUND",
+    "Value": "الفايل غير موجود"
+  },
+  {
+    "Key": "FILE_UPLOADED",
+    "Value": "تم رفع الفايل بنجاح"
+  },
+  {
+    "key": "ITEM_TYPE_NAME_EXIST",
+    "Value": "إسم نوع العنصر موجود"
+  },
+  {
+    "key": "ITEM_Category_NAME_EXIST",
+    "Value": "إسم صنف العنصر موجود"
+  },
+  {
+    "key": "ITEM_Classification_CODE_EXIST",
+    "Value": "إسم كود العنصر موجود"
+  },
+  {
+    "key": "COUNTRY_NOT_FOUND",
+    "Value": "البلد غير موجوده"
+  },
+  {
+    "key": "CURRENCY_DEFAULT_EXSIT",
+    "Value": "يوجد عمله افتراضيه بالفعل"
+  },
+  {
+    "key": "ITEM_CODE_EXSIT",
+    "Value": "كود العنصر موجود بالفعل"
+  },
+  {
+    "key": "ITEM_CATEGORY_NOT_FOUND",
+    "Value": "قسم العنصر غير موجود"
+  },
+  {
+    "key": "ITEM_TYPE_NOT_FOUND",
+    "Value": "نوع العنصر غير موجود"
+  },
+  {
+    "key": "ITEM_CLASSIFICATION_NOT_FOUND",
+    "Value": "صنف العنصر غير موجود"
+  },
+  {
+    "key": "COST_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "نوع العمله للتكلفه غير موجود"
+  },
+  {
+    "key": "RETAIL_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "نوع العملة للبيع بالتجزئه غير موجود"
+  },
+  {
+    "key": "WHOLESALE_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "نوع العملة للبيع بالجمله غير موجود"
+  },
+  {
+    "key": "YOU_MUST_ADD_RETAIL_PRICE",
+    "Value": "من فضلك ادخل قيمة البيع بالتجزئه"
+  },
+  {
+    "key": "YOU_MUST_ADD_RETAIL_PRICE_Currency",
+    "Value": "من فضلك ادخل علمة البيع بالتجزئه"
+  },
+  {
+    "key": "YOU_MUST_ADD_WholeSale_PRICE",
+    "Value": "من فضلك ادخل قيمة البيع بالجملة"
+  },
+  {
+    "key": "YOU_MUST_ADD_WholeSale_PRICE_Currency",
+    "Value": "من فضلك قم بإدخال عملة البيع بالجملة"
+  },
+  {
+    "key": "PAYMENT_GROUP_NAME_EXIST",
+    "Value": "اسم مجموعة وسيلة الدفع موجود بالفعل"
+  },
+  {
+    "key": "PAYMENT_MODE_TYPE_NOT_FOUND",
+    "Value": "لا يوجد نوع لوسيلة الدفع"
+  },
+  {
+    "key": "PAYMENT_MODE_NAME_EXIST",
+    "Value": "إسم وسيلة الدفع موجود بالفعل"
+  },
+  {
+    "key": "DEPARTMENT_NOT_FOUND",
+    "Value": "القسم غير موجود"
+  },
+  {
+    "key": "BRANCH_NOT_FOUND",
+    "Value": "الفرع غير موجود"
+  },
+  {
+    "key": "STORE_CODE_REQUIRED",
+    "Value": "كود المخزن مطلوب"
+  },
+  {
+    "key": "STORE_CODE_EXSIT",
+    "Value": "كود المخزن موجود بالفعل"
+  },
+  {
+    "key": "MAIN_STORE_NOT_FOUND",
+    "Value": "المخزن الأساسي غير موجود"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "code": "CA001",
+    "arabicName": "القاهرة",
+    "englishName": "Cairo"
+  },
+  {
+    "code": "DK001",
+    "arabicName": "الدقي",
+    "englishName": "Dokki"
+  },
+  {
+    "code": "MH001",
+    "arabicName": "المهندسيين",
+    "englishName": "Mohandseen"
+  },
+  {
+    "code": "KFS001",
+    "arabicName": "كفر الشيخ",
+    "englishName": "Kafr El-Shiekh"
+  },
+  {
+    "code": "DSK001",
+    "arabicName": "دسوق",
+    "englishName": "Desok"
+  }
+]

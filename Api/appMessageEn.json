@@ -1,0 +1,146 @@
+[
+  {
+    "Key": "DONE",
+    "Value": "Done"
+  },
+  {
+    "Key": "SAVE_SUCCESS",
+    "Value": "Save Success"
+  },
+  {
+    "Key": "DELETE_SUCCESS",
+    "Value": "Delete Success"
+  },
+  {
+    "Key": "EDIT_SUCCESS",
+    "Value": "Update Success"
+  },
+  {
+    "Key": "NOT_FOUND",
+    "Value": "Data Not Found"
+  },
+  {
+    "Key": "EDIT_FAILD",
+    "Value": "Update Faild"
+  },
+  {
+    "Key": "SAVE_FAILD",
+    "Value": "Save Faild"
+  },
+  {
+    "Key": "DELETE_FAILD",
+    "Value": "Delete Faild"
+  },
+  {
+    "Key": "VALIDATION",
+    "Value": "There Is An Error In Validation"
+  },
+  {
+    "Key": "EMPOLYEE_NOTFOUND",
+    "Value": "The Employee not Found"
+  },
+  {
+    "Key": "HRFILE_NOTFOUND",
+    "Value": "The HRFile not Found"
+  },
+  {
+    "Key": "FILE_UPLOADED",
+    "Value": "The File Is Uploaded Successfuly"
+  },
+  {
+    "key": "ITEM_TYPE_NAME_EXIST",
+    "Value": "The Item Type Name Is Exist"
+  },
+  {
+    "key": "ITEM_Category_NAME_EXIST",
+    "Value": "The Item Category Name Is Exist"
+  },
+  {
+    "key": "ITEM_Classification_CODE_EXIST",
+    "Value": "The Item Classification Code Is Exist"
+  },
+  {
+    "key": "COUNTRY_NOT_FOUND",
+    "Value": "Country is not Found"
+  },
+  {
+    "key": "CURRENCY_DEFAULT_EXSIT",
+    "Value": "There Is Already Default Currency"
+  },
+  {
+    "key": "ITEM_CODE_EXSIT",
+    "Value": "Item Code Is Already Exsits"
+  },
+  {
+    "key": "ITEM_CATEGORY_NOT_FOUND",
+    "Value": "Item Category Is Not Found"
+  },
+  {
+    "key": "ITEM_TYPE_NOT_FOUND",
+    "Value": "Item Type Is Not Found"
+  },
+  {
+    "key": "ITEM_CLASSIFICATION_NOT_FOUND",
+    "Value": "Item Classification Is Not Found"
+  },
+  {
+    "key": "COST_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "Cost Price Currency Is Not Found"
+  },
+  {
+    "key": "RETAIL_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "Retail Price Is Not Found"
+  },
+  {
+    "key": "WHOLESALE_PRICE_CURRENCY_NOT_FOUND",
+    "Value": "WholeSale Is Not Found"
+  },
+  {
+    "key": "YOU_MUST_ADD_RETAIL_PRICE",
+    "Value": "You Need To Add Rretail Price"
+  },
+  {
+    "key": "YOU_MUST_ADD_RETAIL_PRICE_Currency",
+    "Value": "You Need To Add Rretail Price Currency"
+  },
+  {
+    "key": "YOU_MUST_ADD_WholeSale_PRICE",
+    "Value": "You Need To Add WholeSale Price"
+  },
+  {
+    "key": "YOU_MUST_ADD_WholeSale_PRICE_Currency",
+    "Value": "You Need To Add WholeSale Price Currency"
+  },
+  {
+    "key": "PAYMENT_GROUP_NAME_EXIST",
+    "Value": "Payment Group Name Is Exist"
+  },
+  {
+    "key": "PAYMENT_MODE_TYPE_NOT_FOUND",
+    "Value": "Payment Mode Type Is Not Found"
+  },
+  {
+    "key": "PAYMENT_MODE_NAME_EXIST",
+    "Value": "Payment Mode Name Is Exist"
+  },
+  {
+    "key": "DEPARTMENT_NOT_FOUND",
+    "Value": "Department Not Found"
+  },
+  {
+    "key": "BRANCH_NOT_FOUND",
+    "Value": "Branch Not Found"
+  },
+  {
+    "key": "STORE_CODE_REQUIRED",
+    "Value": "Store Code Is Required"
+  },
+  {
+    "key": "STORE_CODE_EXSIT",
+    "Value": "Store Code Is Already Exsit"
+  },
+  {
+    "key": "MAIN_STORE_NOT_FOUND",
+    "Value": "Main Store Is Not Found"
+  }
+]

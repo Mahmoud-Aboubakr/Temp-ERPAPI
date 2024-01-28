@@ -1,0 +1,14 @@
+[
+  {
+    "Code": "ABC123",
+    "name": "Service"
+  },
+  {
+    "Code": "ABC124",
+    "name": "Drugs"
+  },
+  {
+    "Code" : "ABC125",
+    "name": "Medical Suppliers"
+  }
+]

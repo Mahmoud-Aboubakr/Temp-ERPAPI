@@ -1,0 +1,11 @@
+[
+  {
+    "PaymentModeName": "Cash",
+    "PaymentModesTypeId": 1
+  },
+  {
+    "PaymentModeName": "CreditCard",
+    "PaymentModesTypeId": 2
+  }
+  
+]

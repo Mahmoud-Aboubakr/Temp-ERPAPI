@@ -1,0 +1,17 @@
+[
+  {
+    "code": "1",
+    "arabicName": "الموارد البشرية",
+    "englishName": "HR"
+  },
+  {
+    "code": "2",
+    "arabicName": "المخازن",
+    "englishName": "Stores"
+  },
+  {
+    "code": "3",
+    "arabicName": "الصلاحيات",
+    "englishName": "Security"
+  }
+]
