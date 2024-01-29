@@ -1,0 +1,12 @@
+[
+  {
+    "HiringDocument": "CV",
+    "IsMandatory": true,
+    "Status": 1
+  },
+  {
+    "HiringDocument": "Miliatry Certificate",
+    "IsMandatory": true,
+    "Status": 2
+  }
+]

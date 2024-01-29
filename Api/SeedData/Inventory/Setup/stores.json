@@ -1,0 +1,11 @@
+[
+  {
+    "StoreNameAr": "المخزن الأول",
+    "StoreCode": "Ab11",
+    "StoreNameEn": "First Store",
+    "IsAllowSupplierTrans": true,
+    "DepartmentId": 1,
+    "AppUserId": 1,
+    "BranchId": 1
+  }
+]
