@@ -65,6 +65,9 @@ namespace Persistence.Data
         #region Cashier
         #region Setup
         //public DbSet<PaymentType> paymentTypes { get; set; }
+        public DbSet<PaymentModesType> paymentModesType { get; set; }
+        public DbSet<PaymentGroup> PaymentGroups { get; set; }
+        public DbSet<PaymentModes> PaymentModes { get; set; }
         #endregion
         #endregion
 
@@ -74,9 +77,7 @@ namespace Persistence.Data
         public DbSet<AppUserRolePrivilege> AppUserRolePrivileges { get; set; }
         #endregion
 
-        public DbSet<PaymentModesType> paymentModesType { get; set; }
-        public DbSet<PaymentGroup> PaymentGroups { get; set; }
-		public DbSet<PaymentModes> PaymentModes { get; set; }
+        
 		
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
