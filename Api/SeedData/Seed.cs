@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using Domain.Entities;
 using Domain.Entities.Cashier.Setup;
+using Domain.Entities.HR.Setup;
 using Domain.Entities.Identity;
 using Domain.Entities.Inventory.Setup;
 using Domain.Entities.LookUps;
@@ -34,7 +35,7 @@ public static class Seed
 
 		var countryRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Country>>();
 		await SeedData(unitOfWork, countryRepo, "./SeedData/Setup/countries.json");
-
+		
 		var departmentRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Department>>();
 		await SeedData(unitOfWork, departmentRepo, "./SeedData/Setup/departments.json");
 		
@@ -70,7 +71,16 @@ public static class Seed
 		
 		var paymentModes = scope.ServiceProvider.GetRequiredService<IGenericRepository<PaymentModes>>();
         await SeedData(unitOfWork, paymentModes, "./SeedData/Cashier/Setup/PaymentMode.json");
-
+		
+		var news = scope.ServiceProvider.GetRequiredService<IGenericRepository<New>>();
+        await SeedData(unitOfWork, news, "./SeedData/Setup/news.json");
+		
+		var companies = scope.ServiceProvider.GetRequiredService<IGenericRepository<Company>>();
+        await SeedData(unitOfWork, companies, "./SeedData/Setup/companies.json");
+		
+		var hrFiles = scope.ServiceProvider.GetRequiredService<IGenericRepository<HRFile>>();
+		await SeedData(unitOfWork, hrFiles, "./SeedData/HR/Setup/hrFiles.json");
+        
         #endregion
 
         #region Phase 2
@@ -79,6 +89,46 @@ public static class Seed
 
 		var item = scope.ServiceProvider.GetRequiredService<IGenericRepository<Item>>();
 		await SeedData(unitOfWork, item, "./SeedData/Inventory/Setup/item.json");
+
+        var governorates = scope.ServiceProvider.GetRequiredService<IGenericRepository<Governorate>>();
+        await SeedData(unitOfWork, governorates, "./SeedData/Setup/governorates.json");
+
+        var empoyees = scope.ServiceProvider.GetRequiredService<IGenericRepository<Employee>>();
+        await SeedData(unitOfWork, empoyees, "./SeedData/HR/Setup/employees.json");
+
+        var employeeFiles = scope.ServiceProvider.GetRequiredService<IGenericRepository<EmployeeFiles>>();
+        await SeedData(unitOfWork, employeeFiles, "./SeedData/HR/Setup/employeeFiles.json");
+		
+		//var stores = scope.ServiceProvider.GetRequiredService<IGenericRepository<Store>>();
+		//await SeedData(unitOfWork, stores, "./SeedData/Inventory/Setup/stores.json");
+
+        #endregion
+
+        #region Phase 3
+
+        var nationalityRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Nationality>>();
+        await SeedData(unitOfWork, nationalityRepo, "./SeedData/Setup/nationalities.json");
+
+        var userTypesRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<UserType>>();
+        await SeedData(unitOfWork, userTypesRepo, "./SeedData/Setup/userTypes.json");
+
+        var PagePrefixsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<ApplicationPagePrefix>>();
+        await SeedData(unitOfWork, PagePrefixsRepo, "./SeedData/Setup/applicationPagePrefixs.json");
+
+        var pageRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<AppPage>>();
+        await SeedData(unitOfWork, pageRepo, "./SeedData/Setup/appPages.json");
+
+        var unitsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Unit>>();
+        await SeedData(unitOfWork, unitsRepo, "./SeedData/Setup/units.json");
+
+        var unitTemplatesRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<UnitTemplate>>();
+        await SeedData(unitOfWork, unitTemplatesRepo, "./SeedData/Setup/unitTemplates.json");
+
+        var storeAdjustmentsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<StoreAdjustment>>();
+        await SeedData(unitOfWork, storeAdjustmentsRepo, "./SeedData/Setup/storeAdjustments.json");
+
+
+
         #endregion
 
         #region Identity

@@ -1,0 +1,31 @@
+[
+  {
+    "UnitCode": "unc12475",
+    "UnitNameEn": "Unit 2",
+    "UnitNameAr": "Unit 2",
+    "UnitDescription": "uu",
+    "EditDate": "2024-01-25T21:17:36.2548214",
+    "DeleteDate": "2024-01-25T21:17:40.2135184",
+    "IsDeleted": true,
+    "IsActive": false
+  },
+  {
+    "UnitCode": "unc002",
+    "UnitNameEn": "Unit 5",
+    "UnitNameAr": "Unit 5",
+    "UnitDescription": "ppppppppppppp",
+    "EditDate": "2024-01-25T21:25:27.5390563",
+    "DeleteDate": "2024-01-25T21:26:14.1038459",
+    "IsDeleted": true,
+    "IsActive": false
+  },
+  {
+    "UnitCode": "unc12055",
+    "UnitNameEn": "Unit 1",
+    "UnitNameAr": "Unit 1",
+    "UnitDescription": "Unit 1",
+    "CreateDate": "2024-01-25T22:44:57.5138440",
+    "IsDeleted": false,
+    "IsActive": true
+  }
+]

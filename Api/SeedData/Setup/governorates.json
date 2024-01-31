@@ -1,0 +1,14 @@
+[
+  {
+    "Code": "CA001",
+    "ArabicName": "مكة",
+    "EnglishName": "Makah",
+    "CountryId": 1
+  },
+  {
+    "Code": "CA002",
+    "ArabicName": "الرياض",
+    "EnglishName": "Riyadh",
+    "CountryId":  1
+  }
+]
