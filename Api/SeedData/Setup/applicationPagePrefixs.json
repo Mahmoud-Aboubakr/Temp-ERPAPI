@@ -1,0 +1,17 @@
+[
+  {
+    "pageName": "page 1",
+    "prefix": "prefix 1",
+    "length": 10
+  },
+  {
+    "pageName": "page 2",
+    "prefix": "prefix 2",
+    "length": 15
+  },
+  {
+    "pageName": "page 3",
+    "prefix": "prefix 3",
+    "length": 20
+  }
+]

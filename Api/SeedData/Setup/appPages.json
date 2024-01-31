@@ -1,0 +1,29 @@
+[
+  {
+    "applicationTblId": 1,
+    "appModuleId": 1,
+    "pageType": 1,
+    "pageNameEn": "Users",
+    "pageNameAr": "المستخدمين",
+    "pageUrl": "setup/Users",
+    "pageDesCription": "Dokki"
+  },
+  {
+    "applicationTblId": 1,
+    "appModuleId": 1,
+    "pageType": 1,
+    "pageNameEn": "Show Security",
+    "pageNameAr": "عرض الصلاحيات",
+    "pageUrl": "setup/Roles",
+    "pageDesCription": "Dokki"
+  },
+  {
+    "applicationTblId": 1,
+    "appModuleId": 1,
+    "pageType": 1,
+    "pageNameEn": "Show Stores",
+    "pageNameAr": "عرض المخازن",
+    "pageUrl": "setup/Stores",
+    "pageDesCription": "Dokki"
+  }
+]

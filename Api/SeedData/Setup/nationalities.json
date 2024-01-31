@@ -1,0 +1,41 @@
+[
+  {
+    "CountryCode": "02",
+    "NationalityNameEn": "مصري",
+    "NationalityNameAr": "Egyption",
+    "EditDate": "2024-01-30T18:19:01.3345020",
+    "IsDeleted": false,
+    "IsActive": false
+  },
+  {
+    "CountryCode": "07",
+    "NationalityNameEn": "امريكا",
+    "NationalityNameAr": "USA",
+    "IsDeleted": false,
+    "IsActive": true
+  },
+  {
+    "CountryCode": "11",
+    "NationalityNameEn": "UK",
+    "NationalityNameAr": "انجلتر",
+    "EditDate": "2024-01-30T18:19:13.8708915",
+    "IsDeleted": false,
+    "IsActive": false
+  },
+  {
+    "CountryCode": "99",
+    "NationalityNameEn": "iraq",
+    "NationalityNameAr": "العراق",
+    "CreateDate": "2024-01-30T18:19:48.0707652",
+    "IsDeleted": false,
+    "IsActive": true
+  },
+  {
+    "CountryCode": "89",
+    "NationalityNameEn": "franc",
+    "NationalityNameAr": "فرنسا",
+    "CreateDate": "2024-01-30T18:20:17.6077799",
+    "IsDeleted": false,
+    "IsActive": true
+  }
+]

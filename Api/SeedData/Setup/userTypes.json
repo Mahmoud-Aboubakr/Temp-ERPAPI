@@ -1,0 +1,14 @@
+[
+  {
+    "typeName": "Admin",
+    "descNameAr": "Admin Dec Ar",
+    "descNameEn": "Admin Dec En",
+    "fullDesc": "Full Privileges"
+  },
+  {
+    "typeName": "SuperAdmin",
+    "descNameAr": "Super Admin Dec Ar",
+    "descNameEn": "Super Admin Dec En",
+    "fullDesc": "Super Full Privileges"
+  }
+]

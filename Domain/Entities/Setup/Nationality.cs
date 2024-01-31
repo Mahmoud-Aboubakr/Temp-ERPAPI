@@ -7,7 +7,7 @@ namespace Domain.Entities.Setup
 	{
 		[Required]
 		[Column(TypeName = "nvarchar(15)")]
-		public int CountryCode { get; set; }
+		public string CountryCode { get; set; }
 		[Required]
 		[Column(TypeName = "nvarchar(40)")]
 		public string NationalityNameEn { get; set; }

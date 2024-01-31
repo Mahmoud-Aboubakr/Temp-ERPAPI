@@ -104,6 +104,33 @@ public static class Seed
 
         #endregion
 
+        #region Phase 3
+
+        var nationalityRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Nationality>>();
+        await SeedData(unitOfWork, nationalityRepo, "./SeedData/Setup/nationalities.json");
+
+        var userTypesRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<UserType>>();
+        await SeedData(unitOfWork, userTypesRepo, "./SeedData/Setup/userTypes.json");
+
+        var PagePrefixsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<ApplicationPagePrefix>>();
+        await SeedData(unitOfWork, PagePrefixsRepo, "./SeedData/Setup/applicationPagePrefixs.json");
+
+        var pageRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<AppPage>>();
+        await SeedData(unitOfWork, pageRepo, "./SeedData/Setup/appPages.json");
+
+        var unitsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<Unit>>();
+        await SeedData(unitOfWork, unitsRepo, "./SeedData/Setup/units.json");
+
+        var unitTemplatesRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<UnitTemplate>>();
+        await SeedData(unitOfWork, unitTemplatesRepo, "./SeedData/Setup/unitTemplates.json");
+
+        var storeAdjustmentsRepo = scope.ServiceProvider.GetRequiredService<IGenericRepository<StoreAdjustment>>();
+        await SeedData(unitOfWork, storeAdjustmentsRepo, "./SeedData/Setup/storeAdjustments.json");
+
+
+
+        #endregion
+
         #region Identity
         var usermanager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
         var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<AppUserRole>>();
